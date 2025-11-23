@@ -202,7 +202,7 @@ header h1{ padding:5px 0 0 0;}
 	width: 82px;
 	height:100px;
 	text-indent: -5000px;
-	background-image:url(../images/bogazicilogo.jpg);
+	background-image:none;
 	background-position: 0 0 no-repeat;
 	background-repeat: no-repeat;
 	
@@ -477,5 +477,6 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
 
 
