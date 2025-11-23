@@ -317,7 +317,7 @@ span.tab2{
 header .box{
 	align-content:center;
 	align-items:center;
-	background-image:url(../images/photo.JPG);
+	background-image:none;
 	padding:30px;
 	}
 	
@@ -477,3 +477,4 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
