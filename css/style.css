@@ -316,7 +316,7 @@ header .box{
 	align-content:center;
 	align-items:center;
 	background-image:url(../images/photo.JPG);
-	padding:30px;
+	padding:5px;
 	}
 	
 	.box img{ float:center; margin:5px 10px 10px 5px;
@@ -475,5 +475,6 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
 
 
