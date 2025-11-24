@@ -197,16 +197,14 @@ header{ position:relative; z-index:99; padding-bottom:5px;}
 header.padheader{ padding-bottom:37px;}
 /*modified h1 */
 header h1{ padding:5px 0 0 0;}
-	header h1 a{
-	display: block;
-	width: 82px;
-	height:100px;
-	text-indent: -5000px;
-	background-image:url(../images/bogazicilogo.jpg);
-	background-position: 0 0 no-repeat;
-	background-repeat: no-repeat;
-	
+header h1 a{
+    display: block;
+    width: 82px;
+    height:100px;
+    text-indent: -5000px;
+    background: none !important;
 }
+
 /* added */
 .languagechange{text-align:right;
 padding-right:20px}
@@ -477,3 +475,4 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
