@@ -19,12 +19,16 @@
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
-<script src="js/jquery-1.7.1.min.js"></script>
-<script src="js/script.js"></script>
+	<meta http-equiv="Content-Security-Policy"
+      content="default-src * 'self' data: https: http:;
+               script-src * 'unsafe-inline' 'unsafe-eval' https://platform.twitter.com https://cdn.syndication.twimg.com;
+               style-src * 'unsafe-inline' https:;
+               img-src * data: https:;
+               frame-src * https://platform.twitter.com https://twitter.com;">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/jquery.responsivemenu.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/FF-cash.js"></script>
 
 </head>
 <body>
@@ -403,6 +407,7 @@
 
 </body>
 </html>
+
 
 
 
