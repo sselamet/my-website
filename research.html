@@ -149,22 +149,34 @@
   These mechanisms are often not captured by prescriptive design methods but are
   critical for realistic assessment of structural robustness under natural fires.
 </p>
-
-<h4 class="padtop">Summary</h4>
+<!-- PAST RESEARCH SECTION 2 -->
+<h4 class="padtop2">Past Research: Nonlinear Transient Heat Transfer Code – FEHEAT</h4>
 
 <p class="text1">
-  The overall research objective was to advance structural fire safety through improved
-  prediction of the performance of buildings, bridges, and urban infrastructure exposed
-  to severe fires. The work generated fundamental knowledge on the fire performance of
-  structures—especially steel connections, which govern stability and integrity—and
-  provided a basis for performance-based design approaches across Europe.
+  The overall research goal was to develop an effective finite element program, 
+  <b>FEHEAT</b>, for simulating two-dimensional nonlinear transient heat transfer in 
+  structural components subjected to fire. Implemented in MATLAB, FEHEAT solves the 
+  parabolic transient heat conduction equation with both convective and nonlinear radiative 
+  boundary conditions—an essential capability for thermal analysis in structural fire 
+  engineering. Unlike simplified analytical methods, FEHEAT captures the nonlinear effects of 
+  radiation from hot fire gases and enables accurate computation of temperature distributions 
+  across structural cross-sections, particularly steel I-shapes commonly used in practice.
 </p>
 
+<div class="box-img imgindent img1" style="margin-bottom:20px; text-align:center;">
+  <img src="relatedimages/rb-all.png" width="480" style="height:auto;" alt="FEHEAT Computational Model">
+</div>
+
 <p class="text1">
-  Through experiments and computational mechanics, the research delivered insights into
-  connection behavior, composite action, thermal gradients, and global stability under
-  fire. It aligned with the European Research Area goals for natural hazard mitigation
-  and contributed directly to developing improved design guidance.
+  FEHEAT was designed as a research and educational tool for performing detailed thermal 
+  analyses of beams, columns, and other components, where two-dimensional cross-section 
+  temperature fields are required for subsequent structural analysis under fire. The code 
+  incorporates consistent formulations for conduction, convection, and radiation, enabling 
+  users to compute fiber temperatures for integration into thermo-mechanical finite element 
+  models. The project included the development of a clear user manual, documentation of model 
+  capabilities and limitations, and several benchmark examples to validate the finite element 
+  formulation. This work supported the broader goal of improving structural fire modeling 
+  workflows by providing an open, accessible, and technically rigorous thermal analysis tool.
 </p>
         </div>
 
