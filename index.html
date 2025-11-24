@@ -2,47 +2,47 @@
 <html lang="en">
 <head>
 
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- Security Policy for Twitter + GitHub Pages -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src * 'self' data: https: http:;
+               script-src * 'unsafe-inline' 'unsafe-eval' https://platform.twitter.com https://cdn.syndication.twimg.com;
+               style-src * 'unsafe-inline' https:;
+               img-src * data: https:;
+               frame-src * https://platform.twitter.com https://twitter.com;">
 
-  ga('create', 'UA-4935745-2', 'auto');
-  ga('send', 'pageview');
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4935745-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-4935745-2');
 </script>
 
 <title>Structural Fire Safety Engineering – Serdar Selamet, Ph.D., CFEI</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="Serdar Selamet, Structural Fire Engineering, Wildfire Engineering, Stanford University, Exponent, Thermal Sciences, Consulting">
-<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
-<script src="js/jquery-1.7.1.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/jquery.responsivemenu.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/FF-cash.js"></script>
+<!-- Modern jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 <body>
 
-<header>
+<header style="padding-bottom:5px;">
   <div class="container_24">
     <div class="grid_24">
 
-      <div class="box">
+      <div class="box" style="padding:15px 0;">
         <h21>Structural Fire Safety Engineering</h21>
-        <h22></h22><br>
-        <h22></h22><br>
-        <h22></h22>
       </div>
 
       <h1 class="fleft"><a href="index.html">Glosey</a></h1>
 
-      <ul class="sf-menu">
+      <ul class="sf-menu" style="margin-top:5px;">
         <li class="current"><a href="index.html">Home</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="research.html">Research</a></li>
@@ -63,6 +63,7 @@
 
         <!-- MAIN TEXT -->
         <div class="grid_16 padtop2">
+
           <h4 class="padbot2">Structures and Fire</h4>
 
           <p class="text1">
@@ -70,41 +71,35 @@
             perform under realistic fire and multi-hazard conditions. Beyond traditional prescriptive
             methods, modern fire engineering integrates heat transfer, material degradation, structural
             mechanics, and uncertainty quantification to evaluate performance at the component, system,
-            and community scale. Fire rarely acts alone—its effects compound with earthquakes,
-            wind, and aging infrastructure—making performance-based approaches essential for
-            resilient design.
+            and community scale.
             <br><br>
             My work spans <b>structural fire engineering</b>, <b>wildfire/WUI engineering</b>, and
-            <b>community-scale risk assessment</b>. In consulting, I analyze the fire performance of
+            <b>community-scale risk assessment</b>. In consulting, I analyze fire performance of
             steel, concrete, and composite systems; evaluate post-fire stability of tall buildings;
-            assess fireproofing adequacy; and investigate fire and explosion incidents. I also support
-            clients with code interpretation, performance-based design, and failure analysis across
-            buildings, industrial facilities, and energy infrastructure.
+            assess fireproofing adequacy; and investigate fire and explosion incidents.
             <br><br>
-            In parallel, my research and teaching focus on advancing computational and data-driven
-            tools for fire–structure interaction and wildfire exposure. I develop and apply
-            physics-based and surrogate modeling frameworks—including the <b>FEHEAT</b> finite
-            element platform and spatial wildfire risk models—to study heat transfer, structural
-            response, and structure-to-structure fire spread in WUI communities. This combined
-            academic–industry perspective supports the development of more resilient buildings,
-            informed mitigation strategies, and emerging standards for wildfire-affected regions.
+            In parallel, my research and teaching advance computational and data-driven
+            tools for fire–structure interaction and wildfire exposure, including the
+            <b>FEHEAT</b> platform and structure-to-structure ignition models for WUI communities.
           </p>
 
           <h5>Recent News:</h5>
           <br>
 
-          <!-- NEWS ITEMS GO HERE -->
+          <!-- NEWS Placeholder -->
+          <p class="text1">• (Add your latest updates here)</p>
 
           <h5 class="padtop">Latest Updates on X</h5>
 
+          <!-- TWITTER TIMELINE (now works!) -->
           <a class="twitter-timeline"
              data-width="100%"
              data-height="600"
-             href="https://twitter.com/serdarselamet?ref_src=twsrc%5Etfw">
+             href="https://twitter.com/serdarselamet">
              Tweets by @serdarselamet
           </a>
+          <script async src="https://platform.twitter.com/widgets.js"></script>
 
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
 
         <!-- SIDEBAR -->
@@ -135,10 +130,7 @@
             </p>
 
             <p><a href="http://search.proquest.com/docview/879743374?accountid=9645">Dissertation</a></p>
-
-            <p class="padbot"><b>Curriculum Vitae:</b>
-            <a href="CVSelamet_ENG.pdf">CV</a></p>
-
+            <p class="padbot"><b>Curriculum Vitae:</b> <a href="CVSelamet_ENG.pdf">CV</a></p>
           </div>
 
           <p class="padbot">
@@ -153,7 +145,6 @@
             <li><a href="https://www.researchgate.net/profile/Serdar_Selamet"><img src="images/researchgate.png" alt=""></a></li>
             <li><a href="https://www.linkedin.com/in/serdarselamet/"><img src="images/icon3.jpg" alt=""></a></li>
           </ul>
-
         </div>
 
       </div>
@@ -174,7 +165,3 @@
 
 </body>
 </html>
-
-
-
-
