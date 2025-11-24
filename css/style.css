@@ -208,11 +208,15 @@ header.padheader{ padding-bottom:37px;}
 header h1{ padding:5px 0 0 0;}
 header h1 a{
     display: block;
-    width: 82px;
-    height:100px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
     text-indent: -5000px;
     background: none !important;
+    padding: 0;
+    margin: 0;
 }
+
 
 /* added */
 .languagechange{text-align:right;
@@ -484,6 +488,7 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
 
 
 
