@@ -262,6 +262,18 @@ section{ position:relative; z-index:1;}
 
 /*modified boy for the news part */
 
+.twitter-container {
+    width: 100%;
+    padding: 10px 0;
+    overflow: visible !important;
+    text-align: center;
+}
+
+.twitter-container iframe {
+    width: 100% !important;
+    margin: 0 auto;
+}
+
 
 span.tab{
     padding: 0 80px; /* Or desired space*/
@@ -488,6 +500,7 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
 
 
 
