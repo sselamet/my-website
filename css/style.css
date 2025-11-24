@@ -32,6 +32,15 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
+.site-banner-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #EBEBEB;
+    padding: 20px 0 10px 0;
+    width: 100%;
+    display: block;
+}
 
 
 
@@ -475,6 +484,7 @@ footer.padfooter{ padding-top:41px;}
 
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
 
 
 
