@@ -130,7 +130,7 @@ header h1 a{
 	width: 82px;
 	height:100px;
 	text-indent: -5000px;
-	background-image:none;
+	background-image:url(../images/photo.JPG);
 }
 .languagechange{text-align:right; padding-right:20px;}
 
@@ -206,3 +206,4 @@ footer a{color:#7c7876; margin:1px;}
 @media only screen and (max-width: 480px) { /* unchanged */ }
 
 /* END OF FILE */
+
